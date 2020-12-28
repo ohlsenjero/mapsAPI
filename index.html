@@ -8,7 +8,7 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
   <script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAux_AFTf7J8pb0GUehflp1R5jNz4zDHqo">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOyWWTYdumtBWRJza5cnLgXtyxdUeM2b0">
   </script>
 
    <!-- https won't work. Only for premium accounts. Which means this first map load, based on client's IP, won't work on github-->
@@ -96,7 +96,7 @@
       axios.get('https://maps.googleapis.com/maps/api/geocode/json',{
         params:{
           address:location,
-          key:'AIzaSyAux_AFTf7J8pb0GUehflp1R5jNz4zDHqo'
+          key:'AIzaSyAOyWWTYdumtBWRJza5cnLgXtyxdUeM2b0'
         }
       })
       .then(function(response){
